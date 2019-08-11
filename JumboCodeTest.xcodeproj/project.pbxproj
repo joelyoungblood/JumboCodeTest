@@ -3,25 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461783C122FDCDDA007AE0BE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783C022FDCDDA007AE0BE /* Network.swift */; };
+		461783C322FDCE39007AE0BE /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783C222FDCE39007AE0BE /* ApiRoute.swift */; };
+		461783C822FDCEA7007AE0BE /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783C722FDCEA7007AE0BE /* AppConstants.swift */; };
+		461783CA22FDCF25007AE0BE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783C922FDCF25007AE0BE /* Error.swift */; };
+		461783CC22FDCF60007AE0BE /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783CB22FDCF60007AE0BE /* Challenges.swift */; };
+		461783CE22FDD0A2007AE0BE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783CD22FDD0A2007AE0BE /* Request.swift */; };
+		461783D022FDD0FE007AE0BE /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461783CF22FDD0FE007AE0BE /* Challenge.swift */; };
+		468C384C22FF705900D85ADD /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468C384B22FF705900D85ADD /* Validator.swift */; };
+		468C384F22FF76F400D85ADD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468C384E22FF76F400D85ADD /* ViewModel.swift */; };
 		46BF2FD922FDB3A6009FCFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF2FD822FDB3A6009FCFAC /* AppDelegate.swift */; };
 		46BF2FDB22FDB3A6009FCFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF2FDA22FDB3A6009FCFAC /* ViewController.swift */; };
-		46BF2FDE22FDB3A6009FCFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2FDC22FDB3A6009FCFAC /* Main.storyboard */; };
 		46BF2FE022FDB3A7009FCFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2FDF22FDB3A7009FCFAC /* Assets.xcassets */; };
 		46BF2FE322FDB3A7009FCFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF2FE122FDB3A7009FCFAC /* LaunchScreen.storyboard */; };
+		9DA8D5C31705ABFD2215833D /* Pods_JumboCodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7381C6DBFD871E5563237AD /* Pods_JumboCodeTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461783C022FDCDDA007AE0BE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		461783C222FDCE39007AE0BE /* ApiRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
+		461783C722FDCEA7007AE0BE /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		461783C922FDCF25007AE0BE /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		461783CB22FDCF60007AE0BE /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
+		461783CD22FDD0A2007AE0BE /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		461783CF22FDD0FE007AE0BE /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		468C384B22FF705900D85ADD /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		468C384E22FF76F400D85ADD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		46BF2FD522FDB3A6009FCFAC /* JumboCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumboCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BF2FD822FDB3A6009FCFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BF2FDA22FDB3A6009FCFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46BF2FDD22FDB3A6009FCFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46BF2FDF22FDB3A7009FCFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46BF2FE222FDB3A7009FCFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46BF2FE422FDB3A7009FCFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE0BDC886D06AB09B2AD303 /* Pods-JumboCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumboCodeTest.debug.xcconfig"; path = "Target Support Files/Pods-JumboCodeTest/Pods-JumboCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C7381C6DBFD871E5563237AD /* Pods_JumboCodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumboCodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4D68E3B00E174CAC054C13 /* Pods-JumboCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumboCodeTest.release.xcconfig"; path = "Target Support Files/Pods-JumboCodeTest/Pods-JumboCodeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8D5C31705ABFD2215833D /* Pods_JumboCodeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1809669854B999F88FC1335C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE0BDC886D06AB09B2AD303 /* Pods-JumboCodeTest.debug.xcconfig */,
+				ED4D68E3B00E174CAC054C13 /* Pods-JumboCodeTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		461783C422FDCE40007AE0BE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				461783C522FDCE49007AE0BE /* Api */,
+				461783C022FDCDDA007AE0BE /* Network.swift */,
+				461783CD22FDD0A2007AE0BE /* Request.swift */,
+				461783C922FDCF25007AE0BE /* Error.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		461783C522FDCE49007AE0BE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				461783C222FDCE39007AE0BE /* ApiRoute.swift */,
+				461783CB22FDCF60007AE0BE /* Challenges.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		461783C622FDCE9E007AE0BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2FD822FDB3A6009FCFAC /* AppDelegate.swift */,
+				461783C722FDCEA7007AE0BE /* AppConstants.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		461783D122FDD101007AE0BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				461783CF22FDD0FE007AE0BE /* Challenge.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		461783D222FDD109007AE0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2FDF22FDB3A7009FCFAC /* Assets.xcassets */,
+				46BF2FE122FDB3A7009FCFAC /* LaunchScreen.storyboard */,
+				46BF2FE422FDB3A7009FCFAC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		461783D322FDD128007AE0BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46BF2FDA22FDB3A6009FCFAC /* ViewController.swift */,
+				468C384E22FF76F400D85ADD /* ViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468C384D22FF705D00D85ADD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				468C384B22FF705900D85ADD /* Validator.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		46BF2FCC22FDB3A6009FCFAC = {
 			isa = PBXGroup;
 			children = (
 				46BF2FD722FDB3A6009FCFAC /* JumboCodeTest */,
 				46BF2FD622FDB3A6009FCFAC /* Products */,
+				1809669854B999F88FC1335C /* Pods */,
+				FDB0B6B23570CA7E07761CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +150,22 @@
 		46BF2FD722FDB3A6009FCFAC /* JumboCodeTest */ = {
 			isa = PBXGroup;
 			children = (
-				46BF2FD822FDB3A6009FCFAC /* AppDelegate.swift */,
-				46BF2FDA22FDB3A6009FCFAC /* ViewController.swift */,
-				46BF2FDC22FDB3A6009FCFAC /* Main.storyboard */,
-				46BF2FDF22FDB3A7009FCFAC /* Assets.xcassets */,
-				46BF2FE122FDB3A7009FCFAC /* LaunchScreen.storyboard */,
-				46BF2FE422FDB3A7009FCFAC /* Info.plist */,
+				461783C622FDCE9E007AE0BE /* App */,
+				461783D322FDD128007AE0BE /* Views */,
+				461783C422FDCE40007AE0BE /* Network */,
+				461783D122FDD101007AE0BE /* Model */,
+				468C384D22FF705D00D85ADD /* Components */,
+				461783D222FDD109007AE0BE /* Supporting Files */,
 			);
 			path = JumboCodeTest;
+			sourceTree = "<group>";
+		};
+		FDB0B6B23570CA7E07761CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7381C6DBFD871E5563237AD /* Pods_JumboCodeTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46BF2FE722FDB3A7009FCFAC /* Build configuration list for PBXNativeTarget "JumboCodeTest" */;
 			buildPhases = (
+				A11FD9BB829944E2A0198CCF /* [CP] Check Pods Manifest.lock */,
 				46BF2FD122FDB3A6009FCFAC /* Sources */,
 				46BF2FD222FDB3A6009FCFAC /* Frameworks */,
 				46BF2FD322FDB3A6009FCFAC /* Resources */,
+				CB0DCF0D3344E2364124C929 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +230,75 @@
 			files = (
 				46BF2FE322FDB3A7009FCFAC /* LaunchScreen.storyboard in Resources */,
 				46BF2FE022FDB3A7009FCFAC /* Assets.xcassets in Resources */,
-				46BF2FDE22FDB3A6009FCFAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A11FD9BB829944E2A0198CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumboCodeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0DCF0D3344E2364124C929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumboCodeTest/Pods-JumboCodeTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumboCodeTest/Pods-JumboCodeTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JumboCodeTest/Pods-JumboCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46BF2FD122FDB3A6009FCFAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461783CC22FDCF60007AE0BE /* Challenges.swift in Sources */,
+				461783D022FDD0FE007AE0BE /* Challenge.swift in Sources */,
+				468C384C22FF705900D85ADD /* Validator.swift in Sources */,
+				468C384F22FF76F400D85ADD /* ViewModel.swift in Sources */,
+				461783CE22FDD0A2007AE0BE /* Request.swift in Sources */,
 				46BF2FDB22FDB3A6009FCFAC /* ViewController.swift in Sources */,
 				46BF2FD922FDB3A6009FCFAC /* AppDelegate.swift in Sources */,
+				461783C322FDCE39007AE0BE /* ApiRoute.swift in Sources */,
+				461783C122FDCDDA007AE0BE /* Network.swift in Sources */,
+				461783CA22FDCF25007AE0BE /* Error.swift in Sources */,
+				461783C822FDCEA7007AE0BE /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46BF2FDC22FDB3A6009FCFAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46BF2FDD22FDB3A6009FCFAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46BF2FE122FDB3A7009FCFAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +428,12 @@
 		};
 		46BF2FE822FDB3A7009FCFAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE0BDC886D06AB09B2AD303 /* Pods-JumboCodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6D5VRUPLNQ;
-				INFOPLIST_FILE = JumboCodeTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JumboCodeTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +447,12 @@
 		};
 		46BF2FE922FDB3A7009FCFAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4D68E3B00E174CAC054C13 /* Pods-JumboCodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6D5VRUPLNQ;
-				INFOPLIST_FILE = JumboCodeTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JumboCodeTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
