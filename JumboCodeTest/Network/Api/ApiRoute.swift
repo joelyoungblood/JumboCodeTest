@@ -35,7 +35,6 @@ extension ApiRoute {
     
     func asURLRequest() throws -> URLRequest {
         guard let url = URL(string: root + path) else { throw NetworkError.formationError(url: root + path) }
-        print(url.absoluteString)
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
         return urlRequest
