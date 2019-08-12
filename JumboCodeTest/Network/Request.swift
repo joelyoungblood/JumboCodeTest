@@ -11,6 +11,14 @@ import RxSwift
 
 struct Request {
     
+    
+    /**
+     Performs a network request to get the challenge
+     
+     - returns:
+     Observable<Challenge>
+     
+     **/
     static func requestChallenge() -> Observable<Challenge> {
         return Network.request(from: Challenges.codeChallenge).map { data in
             do {

@@ -15,6 +15,15 @@ final class Network {
     
     private static let reachability = NetworkReachabilityManager()!
     
+    /**
+     Performs a request for the given ApiRoute and returns the response data
+     
+     - returns:
+    Observable<Data>
+     
+     - parameters:
+        - route: The ApiRoute that you would like to make the request on.
+     **/
     static func request(from route: ApiRoute) -> Observable<Data> {
         if !reachability.isReachable {
             return Observable.error(NetworkError.noConnection)

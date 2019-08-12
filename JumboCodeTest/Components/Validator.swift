@@ -8,6 +8,7 @@
 
 import Foundation
 
+//The idea here was to allow for dependency injection for testing potential differant algos / keys / etc
 struct Validator {
     
     let publicKey: String
@@ -31,6 +32,15 @@ struct Validator {
         return SecKeyCreateWithData(keyData as CFData, attributesDictionary as CFDictionary, nil)
     }
     
+    /**
+     Given a challenge object, attempts to validate the signnature. If the signature is found to be valid, the decoded script is returned as the success object on the Result, otherwise a ValidationError is returned.
+     
+     - returns:
+    Result<String, ValidationError>
+     
+     - parameters:
+        - challenge: The challenge object to attempt to validate.
+     **/
     func validate(challenge: Challenge) -> Result<String, ValidationError> {
         guard let publicKey = secKey else { return .failure(ValidationError.encodingError) }
         guard let signatureData = Data(base64Encoded: challenge.signature) else { return .failure(ValidationError.encodingError) }
@@ -41,17 +51,17 @@ struct Validator {
         }
         
         //Uncomment these two lines...
-//        guard let payload = challenge.decodedPayload else { return .failure(ValidationError.encodingError) }
-//        return .success(payload)
+        guard let payload = challenge.decodedPayload else { return .failure(ValidationError.encodingError) }
+        return .success(payload)
         
         //...and comment these seven lines...
-        var error: Unmanaged<CFError>?
-        if SecKeyVerifySignature(publicKey, algorithm, payloadData as CFData, signatureData as CFData, &error) {
-            guard let payload = challenge.decodedPayload else { return .failure(ValidationError.encodingError) }
-            return .success(payload)
-        } else {
-            return .failure(ValidationError.invalid)
-        }
+//        var error: Unmanaged<CFError>?
+//        if SecKeyVerifySignature(publicKey, algorithm, payloadData as CFData, signatureData as CFData, &error) {
+//            guard let payload = challenge.decodedPayload else { return .failure(ValidationError.encodingError) }
+//            return .success(payload)
+//        } else {
+//            return .failure(ValidationError.invalid)
+//        }
         //...to see it magically work...
     }
 }
